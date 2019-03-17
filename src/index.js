@@ -6,12 +6,7 @@ import * as firebase from 'firebase';
 
 
 let config = {
-	apiKey: "AIzaSyCNYdzHLCF6DpfyfHsYSXyxHP_lf04ZnMg",
-	authDomain: "composite2k18.firebaseapp.com",
-	databaseURL: "https://composite2k18.firebaseio.com",
-	projectId: "composite2k18",
-	storageBucket: "composite2k18.appspot.com",
-	messagingSenderId: "704199144768"
+	//YOUR FIREBASE CONFIG
 };
 
 firebase.initializeApp(config);
