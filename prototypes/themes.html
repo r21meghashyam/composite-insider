@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<script src="https://use.fontawesome.com/c7e5633002.js"></script>
+	
+	<style>
+		body{
+			margin:0px;
+			font-family: 'Oswald', sans-serif;
+			color:#222;
+			background:#EEE;
+		}
+		.header{
+			text-align: center;
+			padding:20px;
+			font-size: 30px;
+			box-shadow: 0px 1px 20px #999;
+			background:#FFF;
+			position: fixed;
+			top:0px;
+			left:0px;
+			right:0px;
+		}
+		.section{
+			margin:auto;
+			text-align: center;
+			margin-top:100px;
+		}
+		
+		.head{
+			text-align: center;
+			
+		}
+		 .head img{
+			width:200px;
+			height:200px;
+			transition:transform 0.3s;
+		}
+		.head img:hover{
+			transform: scale(1.1);
+		}
+		.head {
+			display:inline-block;
+			padding:10px;
+		}
+		a{
+			color:#222;
+		}
+		i{
+			float: left;
+			
+			background: #f1f1f1;
+			padding: 10px;
+			border-radius: 50px;
+			height: 30px;
+			width: 30px;
+		}
+		.list{
+			max-width: 700px;
+			margin:auto;
+			
+		}
+		.card {
+			background:#FFF;
+			padding:15px;
+			border-radius: 2px;
+			margin:10px;
+			text-align: left;
+			
+			
+		}
+		.card>img{
+			width:80px;
+			height: 80px;
+			border-radius: 50%;
+		}
+		.text{
+			
+			padding:5px;
+			font-size:20px;
+			
+			color:#555;
+		}
+		.card-content{
+			display: inline-block;
+			vertical-align: top;
+		}
+		.actions{
+			
+			float:right;
+		}
+		.actions img{
+			width:32px;
+
+		}
+		.report{
+			padding-left:20px;
+		}
+		button{
+			padding:10px;
+			font-size:20px;
+			background:#999;
+			color:#555;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+			<a href="/"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>	
+		Composite 2k18
+	</div>
+	<div class="section">
+			<div class="head">
+				<img src="idea.png" alt="Theme"> <div>Themes</div>
+			</div>
+			<div class="list">
+					<button>Log in to add your suggestions</button>
+					<div class="card">
+							<img src="guest.png" alt="Guest">
+							<div class="card-content">
+								<span class="text">Concave of Tech-Know Minds</span>
+								
+							</div>
+							<div class="actions">
+									<img src="like.png">
+								</div>
+					</div>
+					<div class="card">
+							<img src="guest.png" alt="Guest">
+							<div class="card-content">
+								<span class="text">Concave of Tech-Know Minds</span>
+								
+							</div>
+							<div class="actions">
+									<img src="like.png">
+								</div>
+					</div>
+					<div class="card">
+							<img src="guest.png" alt="Guest">
+							<div class="card-content">
+								<span class="text">Concave of Tech-Know Minds</span>
+								<div class="report">1 likes</div>
+							</div>
+							<div class="actions">
+									<img src="liked.png">
+								</div>
+					</div>
+					<div class="card">
+							<img src="guest.png" alt="Guest">
+							<div class="card-content">
+								<span class="text">Concave of Tech-Know Minds</span>
+								
+							</div>
+							<div class="actions">
+									<img src="like.png">
+								</div>
+					</div>
+				</div>
+		
+	</div>
+</body>
+</html>

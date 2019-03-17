@@ -1,0 +1,19 @@
+{
+  "name": "Composite 2k18 (Insider)",
+  "short_name": "Composite 2k18",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#3a60a4",
+  "icons": [{
+    "src": "./assets/icons/android-chrome-192x192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "./assets/icons/android-chrome-512x512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}

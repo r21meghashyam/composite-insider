@@ -1,0 +1,107 @@
+@import '~style/helpers';
+
+.tagline{
+
+	.list{
+		max-width: 700px;
+		margin:auto;
+	}
+	.card {
+		background:#FFF;
+		padding:15px;
+		text-align: left;
+		border-radius: 2px;
+		margin:10px;
+		padding-bottom:30px;
+		
+	}
+	.card>img{
+		width:80px;
+		height: 80px;
+		border-radius: 50%;
+		border: 1px solid #EEE;
+	}
+	.text{
+		
+		padding:5px;
+		font-size:20px;
+		
+		color:#555;
+	}
+	.cardcontent{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.actions{
+		
+		float:right;
+	}
+	.actions img{
+		width:32px;
+
+	}
+
+	.report,.time{
+		padding-left:20px;
+	}
+	.time{
+		color:#999;
+		font-size:12px;
+	}
+	.footer{
+		text-align:center;
+		padding:30px;
+	}
+
+	button{
+		padding:5px;
+		font-size:15px;
+		background:#999;
+		color:#555;
+		margin:5px;
+		float: right;
+		margin-right:10%;
+	}
+
+	.group{ 
+		position:relative; 
+		margin-top:5px;
+		input{
+			font-size:18px;
+			padding:10px 10px 10px 5px;
+			display:block;
+			width:90%;
+			border:none;
+			border-bottom:1px solid #757575;
+			&:focus{
+				outline:none;
+			}
+			/* active state */
+			&:focus ~ label, &:valid ~ label     {
+				top:-20px;
+				font-size:14px;
+				color:#5264AE;
+			}
+		}
+		label{
+			color:#999; 
+			font-size:18px;
+			font-weight:normal;
+			position:absolute;
+			pointer-events:none;
+			left:5px;
+			top:10px;
+			transition:0.5s ease all; 
+		}
+	}
+	.deleteMsg{
+		font-size:28px;
+		color:#900;
+		cursor: pointer;
+		transition:background 0.5s;
+		&:hover{
+			color:#555;
+		}
+	}
+
+}

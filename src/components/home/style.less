@@ -1,0 +1,54 @@
+@import '~style/helpers';
+
+.home {ul{
+		
+		padding:0px;
+		list-style: none;
+		a{
+			color:#222;
+			li {
+				display:inline-block;
+				padding:10px;
+				div{
+					text-align: center;
+				}
+				img{
+					width:200px;
+					height:200px;
+					transition:transform 0.3s;
+					&:hover{
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+	}
+	.card{
+		margin:auto;
+		background:#FFF;
+		max-width: 300px;
+		padding:20px;
+		transition: transform 0.5s;
+		i{
+			display:block;
+			font-size:3em;
+		}
+		button{
+			padding:5px;
+			font-size:20px;
+			margin:5px;
+			border:0px;
+			border-radius: 0px;
+			color:#FFF;
+			outline:0px;
+			background:#a26f6f;
+			transition:background 0.5s;
+			&:hover{
+				background: #bd2c2c;
+			}
+		}
+		&.up{
+			transform: scale(0);
+		}
+	}
+}
